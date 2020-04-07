@@ -1,0 +1,26 @@
+.title {
+    position: fixed;
+    font-size: 6vh;
+    color: #fff;
+    z-index: 4;
+    margin: 0;
+    padding: 0;
+    top: 40%;
+    text-align: center;
+    font-family: poppins;
+    -webkit-text-stroke: 4px deeppink;
+}
+
+.outter {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .title {
+        font-size: 5vw;
+    }
+}
